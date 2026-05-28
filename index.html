@@ -1,17 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>PM Arquette</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PM Arquette</title>
+    <link rel="stylesheet" href="styles/site.css">
   </head>
   <body>
-    <h1>Preston Arquette</h1>
-    <p>Product Director | Startup Builder | Former Amazon PMT</p>
+    <div class="page page-narrow">
+      <header class="site-header">
+        <a class="wordmark" href="index.html">
+          <span class="wordmark-mark">PA</span>
+          <span>PM Arquette</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="writing.html">Writing</a>
+          <a href="projects.html">Projects</a>
+          <a href="experiments.html">Experiments</a>
+          <a href="about.html">About</a>
+        </nav>
+      </header>
 
-    <p>Cultivating Product Mindset and writing about it. Learning in public.</p>
+      <main class="stack stack-roomy">
+        <section class="intro" aria-labelledby="intro-title">
+          <div class="eyebrow">Experiments in systems, products, technology, and modern life</div>
+          <h1 class="hero-title" id="intro-title">Preston Arquette</h1>
+          <p class="hero-lede">
+            I’m a product director, startup builder, and former Amazon PMT. This is my home base
+            for essays, build logs, project notes, and structured experiments about how useful
+            systems get made.
+          </p>
+        </section>
 
-    <hr>
+        <section class="section-card section-card-plain" aria-labelledby="site-purpose">
+          <h2 id="site-purpose">What this site is for</h2>
+          <p>
+            This site is part notebook, part workshop, part archive. I write about product
+            judgment, startup execution, AI-assisted development, app ideas, and the habits and
+            systems that shape modern work.
+          </p>
+          <p>
+            Some pieces will be polished essays. Others will be working notes, experiment logs, or
+            project snapshots. The common thread is concrete learning from trying to build and
+            understand things.
+          </p>
+        </section>
 
-    <p>More coming soon.</p>
+        <section class="section-card section-card-plain" aria-labelledby="sections-title">
+          <h2 id="sections-title">Start here</h2>
+          <div class="link-list">
+            <a class="link-row" href="writing.html">
+              <span>
+                <strong>Writing</strong>
+                <small>Essays, notes, build logs, and longer reflections.</small>
+              </span>
+              <span aria-hidden="true">&rarr;</span>
+            </a>
+            <a class="link-row" href="projects.html">
+              <span>
+                <strong>Projects</strong>
+                <small>Apps, prototypes, concepts, and public artifacts.</small>
+              </span>
+              <span aria-hidden="true">&rarr;</span>
+            </a>
+            <a class="link-row" href="experiments.html">
+              <span>
+                <strong>Experiments</strong>
+                <small>Structured tests of tools, workflows, routines, and strategies.</small>
+              </span>
+              <span aria-hidden="true">&rarr;</span>
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <span>pmarquette.com</span>
+        <span>A quiet place to publish over time.</span>
+      </footer>
+    </div>
   </body>
 </html>
